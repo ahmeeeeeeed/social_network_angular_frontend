@@ -1,0 +1,117 @@
+.background-opacity-when-modal-open{
+ // opacity: 0.3;
+}
+
+.billing-custom{
+ // border-radius: 10px;
+}
+
+.text-input-margin{
+  margin-left: 3.5% 
+}
+
+.outline-button{
+  background-color: white; 
+  color: #e44d3a;  
+  border: 2px solid #e44d3a;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+.outline-button:hover {
+  background-color: #e44d3a;
+  color: white;
+}
+
+.billing-custom h3{
+  //border-radius:  10px 10px 0 0;
+   background-color: #e44d3a;
+    color: white;
+    text-align: center
+}
+.chatButtons{
+    height: 45px;
+    width: 150px;
+     text-align: center;
+     margin:10px;
+}
+.text-font{
+    font-size: 17px
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #fdd;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+
+
+
+
+  .frame {
+    height: 90%;
+    position: absolute;
+    width: 90%;
+    z-index: 100;
+    top: 0;
+    margin-top: 10px;
+    background-color: gray;
+    overflow: scroll;
+  }
+  
+  .item {
+    padding: 120px 50px;
+    margin: 20px;
+    background-color: white;
+  }
